@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="67d9946cfb9d448093a4c1e5060ffac9" Name="Diagram1">
+        <EntityTypeShape EntityType="user08Model.Order" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="user08Model.PointIssue" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="user08Model.Producer" Width="1.5" PointX="0.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="user08Model.Product" Width="1.5" PointX="3" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="user08Model.ProductOrder" Width="1.5" PointX="5.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="user08Model.Status" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <AssociationConnector Association="user08Model.FK_Order_PointIssue" ManuallyRouted="false" />
+        <AssociationConnector Association="user08Model.FK_Order_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="user08Model.FK_ProductOrder_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="user08Model.FK_Product_Producer" ManuallyRouted="false" />
+        <AssociationConnector Association="user08Model.FK_ProductOrder_Product" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
